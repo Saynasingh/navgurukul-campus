@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(13, 13, 13);
+    height: 40px;
+    width: 100%;
+}
+
+
+nav ul li a {
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.abc {
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    background-color: rgb(26, 24, 25);
+    height: 50px;
+    padding-top: 4%;
+    color: rgb(244, 232, 232);
+    font-size: 40px;
+}
+
+.ss {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin:  auto; 
+    color: black;
+    padding: 10px; 
+}
+
+.responsive-img {
+    width: 100%; 
+    height: auto; 
+    max-width: 600px;
+}
+
+.ss p {
+    text-align: center;
+    max-width: 600px; 
+    padding: 0 15px; 
+} 
+
+
+
+.logo1, .c1, .c2, .c3, .g1, .g2, .g3, .g4, .g5, .g6 {
+    display: flex;
+    justify-content: space-around;
+
+}
+.ss p {
+    font-size: 40px;
+}
+
+#associate {
+    background-color: rgb(12, 10, 6);
+}
+#council, #gallery, #news {
+    background-color: rgb(12, 11, 12);
+}
+.z img {
+    margin-left: 700px;
+}
+
+div {
+    color: rgb(249, 241, 241);
+}
+p{
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .logo1, .logo, .c1, .c2, .c3, .g1, .g2, .g3, .g4, .g5, .g6 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        height: auto;
+        padding: 2%;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    div {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        height: auto;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    div {
+        font-size: 12px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .ss{
+        font-size:24px ;
+    }
+}
+
